@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './styles/App.css'; 
 import App from './App'; 
 
-const rootElement = document.getElementById('root');
-const root = ReactDOM.createRoot(rootElement);
-
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+    <BrowserRouter basename="/bren-alden_portofolio/"> {/* <--- PERIKSA INI */}
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
+)
