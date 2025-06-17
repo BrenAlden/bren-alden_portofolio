@@ -1,0 +1,54 @@
+p, h1, h2{
+  color: #393E46;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #333;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.header nav ul li {
+  margin-left: 25px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+  color: #007bff; /* Warna hover link */
+}
+
+.contact-button {
+  background-color: #343a40; /* Warna tombol dari Figma */
+  color: #ffffff !important; /* Warna teks tombol, !important untuk override */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #929AAB; /* Warna hover tombol */
+  color: #ffffff !important;
+}
